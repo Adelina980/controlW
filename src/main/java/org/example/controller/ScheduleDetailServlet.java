@@ -10,7 +10,7 @@ import org.example.service.ScheduleService;
 
 import java.io.IOException;
 
-@WebServlet("/scheduleDetail/*")
+@WebServlet("/scheduleDetail")
 public class ScheduleDetailServlet extends HttpServlet {
     private ScheduleService service = new ScheduleService();
 
